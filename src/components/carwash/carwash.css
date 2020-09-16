@@ -1,0 +1,213 @@
+section#car-wash {
+	/* background: #fdf8ec; */
+	min-height: 100vh;
+}
+
+.car-wash-div {
+	padding: 5rem 0 0 0;
+}
+
+.car-wash-header {
+	display: flex;
+}
+
+.car-wash-img-div {
+	width: 65vw;
+}
+
+img.car-wash-img {
+	width: 100%;
+}
+
+.car-wash-info-div {
+	padding: 5rem 0 0 4rem;
+}
+
+h3.car-wash-title {
+	font-size: 4rem;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(48, 46, 46);
+	margin: 0 0 2rem 0;
+}
+
+p.car-wash-text {
+	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: .1rem;
+}
+
+ol.car-wash-list {
+	/* padding-left: 0; */
+	font-size: 1.4rem;
+	font-family: 'Roboto', sans-serif;
+	line-height: 2.3rem;
+	letter-spacing: .1rem;
+}
+
+a.app-download-link {
+	margin-right: 1rem;
+}
+
+.car-wash-prices {
+	padding: 1rem 2rem;
+	margin: 1rem 0;
+	/* background: #dcf3e7; */
+	background: #fff2d6;
+}
+
+h4.car-wash-prices-subtitle {
+	font-size: 2.2rem;
+	margin: 1rem 0;
+}
+
+hr.car-wash-info-subtitle-underline {
+	width: 35rem;
+	height: 3px;
+	color: rgb(13, 105, 62);
+	background: rgb(13, 105, 62);
+	border: 2px solid rgb(13, 105, 62);
+	margin: 0;
+}
+
+.package-div {
+	display: flex;
+	justify-content: space-between;
+	padding: 1rem 1rem;
+	border-radius: 10px;
+}
+
+.package-div:hover {
+	/* background: #b8f1d1; */
+	background: #ffdf99;
+}
+
+span.package-name {
+	font-weight: 700;
+}
+
+span.package-price {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(13, 105, 62);
+	font-size: 1.3rem;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+}
+
+hr.packages-underline {
+	box-sizing: border-box;
+	width: 100px;
+	color: rgb(13, 105, 62);
+	border: 1px solid rgb(13, 105, 62);
+}
+
+.car-wash-info-div {
+	padding: 2rem 2rem;
+}
+
+h4.car-wash-info-subtitle {
+	font-size: 2.2rem;
+	margin: 1rem 0;
+}
+
+.info-boxes {
+	display: flex;
+	justify-content: space-between;
+}
+
+.info-box-1 {
+	margin-top: 1rem;
+	width: 23vw;
+	padding: 1rem;
+	background: #79c49d;
+}
+
+.info-box-2 {
+	margin-top: 1rem;
+	width: 23vw;
+	padding: 1rem;
+	background: #fff2d6;
+}
+
+span.info-box-subtitle {
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+p.info-box-text {
+	font-size: 1.1rem;
+	letter-spacing: .05rem;
+	line-height: 1.5rem;
+}
+
+p.step {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.2rem;
+	line-height: 1.6rem;
+	letter-spacing: .06rem;
+	margin: 0;
+	padding: 1.4rem 1rem;
+}
+
+.step-1 {
+	background: #cdf4dd;
+}
+
+.step-2 {
+	background: #abedc7;
+}
+
+.step-3 {
+	background: #89e6b0;
+}
+
+.step-4 {
+	background: #68df99;
+}
+
+.extra-info {
+	padding: 2rem 1rem;
+	margin-top: 1rem;
+	background: #e9c985;
+}
+
+span.extra-info-text {
+	font-style: 'Roboto', sans-serif;
+	font-size: 1.1rem;
+	line-height: 2rem;
+}
+
+span.extra-info-name {
+	font-weight: bold;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+	.car-wash-header {
+		display: flex;
+		flex-direction: column;
+	}
+
+	img.car-wash-img {
+		width: 100vw;
+	}
+
+	h3.car-wash-title {
+		font-size: 2.5rem;
+	}
+
+	.info-boxes {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.info-box-1 {
+		width: 100%;
+	}
+
+	.info-box-2 {
+		width: 100%;
+	}
+}

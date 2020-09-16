@@ -1,0 +1,95 @@
+section#lawn-services {
+	padding-top: 5rem;
+}
+
+.lawn-header {
+	display: flex;
+}
+
+.lawn-img-div {
+	width: 60vw;
+}
+
+img.lawn-img {
+	width: 60vw;
+}
+
+.lawn-text-div {
+	padding: 2rem;
+}
+
+h3.lawn-title {
+	font-size: 4rem;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(48, 46, 46);
+	margin: 0 0 2rem 0;
+}
+
+.lawn-care-packages {
+	display: flex;
+	justify-content: space-between;
+}
+
+.regular-prices-div {
+	width: 50%;
+}
+
+.seasonal-packages-div {
+	width: 50%;
+}
+
+/* meadia queries */
+
+@media (max-width: 768px) {
+	.lawn-care-packages {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.regular-prices-div {
+		width: 100%;
+	}
+
+	.seasonal-packages-div {
+		width: 100%;
+	}
+
+	.lawn-header {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.lawn-img-div {
+		width: 100vw;
+	}
+
+	img.lawn-img {
+		width: 100vw;
+	}
+
+	.lawn-text-div {
+		width: 100vw;
+	}
+}
+
+@media (max-width: 425px) {
+	h3.lawn-title {
+		font-size: 3rem;
+	}
+
+	p.snow-removal-text {
+		font-size: 1.4rem;
+	}
+
+	.car-wash-list-item {
+		font-size: 1.2rem;
+	}
+
+	h4.car-wash-prices-subtitle {
+		font-size: 1.7rem;
+	}
+
+	img.app-download-pic {
+		width: 40%;
+	}
+}

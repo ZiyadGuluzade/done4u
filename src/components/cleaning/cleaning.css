@@ -1,0 +1,46 @@
+section#cleaning {
+	min-height: 100vh;
+	padding: 5rem 0 0 0;
+}
+
+.cleaning-header {
+	display: flex;
+}
+
+.cleaning-img-div {
+	width: 60vw;
+}
+
+img.cleaning-img {
+	width: 60vw;
+}
+
+.cleaning-text-div {
+	padding: 2rem;
+}
+
+.cleaning-steps-div {
+	margin: 0 2rem 2rem 2rem;
+}
+
+hr.cleaning-info-subtitle-underline {
+	border: 2px solid rgb(13, 105, 62);
+}
+
+h4.cleaning-info-subtitle {
+	font-size: 2.2rem;
+	margin: 1rem 0;
+	margin: 3rem 0 1rem 0;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+	.cleaning-header {
+		display: flex;
+		flex-direction: column;
+	}
+
+	img.cleaning-img {
+		width: 100vw;
+	}
+}

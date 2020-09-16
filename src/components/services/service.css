@@ -1,0 +1,130 @@
+* {
+	box-sizing: border-box;
+}
+
+.services-main-div {
+	/* background: rgba(120, 211, 168, 0.356); */
+	/* margin: 0 6rem; */
+	border-radius: 10px;
+}
+
+.section-title-underline {
+	width: calc(100vw - 12rem);
+	height: 3px;
+	color: rgb(13, 105, 62);
+	background: rgb(13, 105, 62);
+	border: 2px solid rgb(13, 105, 62);
+}
+
+.section-title-div {
+	display: flex;
+	padding: 0 6rem;
+	margin-top: 0;
+	/* background: rgba(120, 211, 168, 0.356); */
+	border-radius: 10px;
+}
+
+.service-section-title {
+	color: #000;
+	letter-spacing: .2rem;
+	font-family: 'Roboto', sans-serif;
+	font-size: 2.6rem;
+	margin: 3rem 0 0 0;
+}
+
+.services-div {
+	display: flex;
+	flex-direction: column;
+	padding: 0 6rem 3rem 6rem;
+	min-height: 300px;
+	width: 100vw;
+	/* border: 1px solid blue; */
+	justify-content: space-between;
+	/* padding-bottom: 6rem; */
+}
+
+.services-row {
+	display: flex;
+	justify-content: space-between;
+}
+
+.service-div {
+	display: flex;
+	flex-direction: column;
+
+	padding-top: .7rem;
+}
+
+.service-name {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.4rem;
+	margin: .6rem 0;
+	color: #000;
+}
+
+.service-img {
+	width: 30rem;
+	height: 20rem;
+	border-radius: 5px;
+	/* box-shadow: 0 0 5px; */
+}
+
+a.service-info-link {
+	display: flex;
+	align-items: center;
+	border: 1px solid rgb(13, 105, 62);
+	background: transparent;
+	color: rgb(13, 105, 62);
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	font-size: .8rem;
+	padding: .5rem 1.5rem;
+	text-decoration: none;
+	font-size: 1.3rem;
+	margin-top: 1rem;
+	max-width: fit-content;
+	border-radius: 5px;
+}
+
+a.service-info-link:hover {
+	background: rgb(13, 105, 62);
+	color: #fff;
+}
+
+/* media queries */
+@media (max-width: 768px) {
+	.services-div {
+		padding: 0 2rem 3rem 2rem;
+	}
+
+	.section-title-div {
+		padding: 0 2rem;
+	}
+
+	.service-div {
+		padding: 0 1rem;
+	}
+
+	.service-img {
+		width: 40vw;
+		height: 20vh;
+		margin: 0;
+	}
+
+	.section-title-underline {
+		width: calc(100vw - 4rem);
+	}
+}
+
+@media (max-width: 425px) {
+	.services-row {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.service-img {
+		width: 80vw;
+		height: 30vh;
+		margin: 0;
+	}
+}

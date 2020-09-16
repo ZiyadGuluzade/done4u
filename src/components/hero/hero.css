@@ -1,0 +1,129 @@
+.hero {
+	width: 100vw;
+	min-height: 130vh;
+	/* background: url('../../images/green1.jpg'); */
+	background: #f0faf4;
+	box-sizing: border-box;
+}
+
+.hero-img-div {
+	width: 45vw;
+	margin-top: 0;
+	padding-left: 3rem;
+}
+
+img.hero-img {
+	height: 120vh;
+	margin: 0;
+	padding-top: 4rem;
+}
+
+span.brand-name-4 {
+	color: #8ac739;
+}
+
+.hero-div {
+	display: flex;
+	margin: 0 6rem;
+	padding: 5rem 0 5rem 0;
+	box-sizing: border-box;
+}
+
+.hero-text-div {
+	width: 60vw;
+	padding-top: 3rem;
+}
+
+.hero-text {
+	font-size: 3.5rem;
+	color: rgb(48, 46, 46);
+	font-family: 'Roboto', sans-serif;
+	line-height: 4rem;
+	margin-bottom: .2rem;
+	letter-spacing: .25rem;
+}
+
+.hero-paragraph {
+	color: rgb(63, 63, 63);
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.3rem;
+	font-weight: 400;
+	line-height: 2.5rem;
+}
+
+.hero-btn {
+	padding: 1rem 3rem;
+	text-decoration: none;
+	margin-top: 2rem;
+	background: transparent;
+	/* border: 2px solid #489fd1; */
+	border: 1px solid rgb(13, 105, 62);
+	border-radius: 5px;
+	/* color: #489fd1; */
+	color: rgb(13, 105, 62);
+	font-weight: 600;
+	font-size: 1.1rem;
+	font-family: 'Roboto', sans-serif;
+	scroll-behavior: smooth;
+}
+
+.hero-btn:hover {
+	/* background: #489fd1; */
+	/* border: 2px solid #a7f143; */
+	background: rgb(13, 105, 62);
+	color: #fff;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+	.hero {
+		min-height: fit-content;
+	}
+
+	.hero-div {
+		display: flex;
+		margin: 0 2rem;
+	}
+
+	.hero-text-div {
+		width: 100%;
+	}
+
+	.hero-img-div {
+		width: 45vw;
+		margin-top: 0;
+		padding-left: 0;
+		height: fit-content;
+	}
+
+	img.hero-img {
+		height: 50vh;
+		margin: 0;
+		padding-top: 4rem;
+	}
+
+	.hero-text {
+		font-size: 2.8rem;
+		color: rgb(48, 46, 46);
+		font-family: 'Roboto', sans-serif;
+		line-height: 3rem;
+		margin-bottom: .2rem;
+		letter-spacing: .25rem;
+	}
+}
+
+@media (max-width: 465px) {
+	.hero-img-div {
+		display: none;
+	}
+
+	.hero-div {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.hero-text {
+		font-size: 2.6rem;
+	}
+}

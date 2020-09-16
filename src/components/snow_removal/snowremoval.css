@@ -1,0 +1,80 @@
+section#snow-removal {
+	padding-top: 5rem;
+}
+
+.snow-removal-header {
+	display: flex;
+}
+
+img.snow-removal-img {
+	width: 60vw;
+}
+
+hr.packages-underline {
+	box-sizing: border-box;
+	width: 100%;
+	color: rgb(13, 105, 62);
+	border: 1px solid rgb(13, 105, 62);
+}
+
+.snow-removal-text-div {
+	padding: 2rem;
+}
+
+p.snow-removal-text {
+	font-size: 1.5rem;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: .1rem;
+}
+
+h3.snow-removal-title {
+	font-size: 4rem;
+	font-family: 'Roboto', sans-serif;
+	color: rgb(48, 46, 46);
+	margin: 0 0 2rem 0;
+}
+
+.snow-removal-packages {
+	display: flex;
+	justify-content: space-between;
+}
+
+.single-snow-removal {
+	width: 50%;
+}
+
+.seasonal-snow-removal {
+	width: 50%;
+}
+
+/* media queries */
+
+@media (max-width: 768px) {
+	.snow-removal-header {
+		display: flex;
+		flex-direction: column;
+	}
+
+	img.snow-removal-img {
+		width: 100vw;
+	}
+
+	.snow-removal-packages {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.single-snow-removal {
+		width: 100%;
+	}
+
+	.seasonal-snow-removal {
+		width: 100%;
+	}
+}
+
+@media (max-width: 725px) {
+	h3.snow-removal-title {
+		font-size: 2.5rem;
+	}
+}
