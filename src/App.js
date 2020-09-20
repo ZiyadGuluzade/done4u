@@ -9,6 +9,8 @@ import Service from './components/services/Service';
 import Contacts from './components/contacts/Contacts';
 import Info from './components/info/Info';
 
+console.log(process.env.REACT_APP_GOOGLE_API_KEY);
+
 function App() {
   return (
     <div className="App">

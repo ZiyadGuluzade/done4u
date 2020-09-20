@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
 import './contacts.css';
-// import Navbar from '../navbar/Navbar';
-import Footer from '../footer/Footer';
 
 export class Contacts extends Component {
+
   render() {
     return (
       <React.Fragment>
-        {/* <Navbar /> */}
         <section id='contacts'>
           <div className='contacts-div'>
             <h2 className='contacts-title'>Contact Us</h2>
@@ -29,10 +27,10 @@ export class Contacts extends Component {
                   <h4 className='social-media-title'>Find us on social media</h4>
                   <div className='social-media-div'>
                     <div className='social-media-item'>
-                      <a className='social-media-link' href='https://www.facebook.com/done4canada' target='_blank'><i class="fab fa-facebook-square fa-3x"></i></a>
+                      <a className='social-media-link' href='https://www.facebook.com/done4canada' target='_blank'><i className="fab fa-facebook-square fa-3x"></i></a>
                     </div>
                     <div className='social-media-item'>
-                      <a className='social-media-link' href='https://www.instagram.com/done4ucanada/' target='_blank'><i class="fab fa-instagram-square fa-3x"></i></a>
+                      <a className='social-media-link' href='https://www.instagram.com/done4ucanada/' target='_blank'><i className="fab fa-instagram-square fa-3x"></i></a>
                     </div>
                     <div className='social-media-item'>
                       <a className='social-media-link' href='https://www.linkedin.com/company/done4u/' target='_blank'><i class="fab fa-linkedin fa-3x"></i></a>
@@ -47,7 +45,11 @@ export class Contacts extends Component {
                     height="400"
                     frameborder="0" style={{border: 'none'}}
                     src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAT5VfIsh-n1Yqe9J-QAAZ7_Ww2QWO7E6Y
-                    &q=155+Martin+Ross+Ave+unit+2,Toronto+ON" allowfullscreen>
+                    &q=155+Martin+Ross+Ave+unit+1,Toronto+ON"
+                    allowfullscreen>
+
+                    {/* src="https://www.google.com/maps/embed/v1/place?key=AIzaSyAT5VfIsh-n1Yqe9J-QAAZ7_Ww2QWO7E6Y
+                    &q=155+Martin+Ross+Ave+unit+1,Toronto+ON" */}
                 </iframe>
               </div>
             </div>
