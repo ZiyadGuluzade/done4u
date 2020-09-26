@@ -16,7 +16,7 @@ export class Footer extends Component {
                 <hr className='footer-subtitle-underline'/>
                 <ul className='footer-info-list'>
                   <li className='footer-info-list-item'>Email: <a className='footer-mail' href='mailto:info@done4u.ca'>info@done4u.ca</a></li>
-                  <li className='footer-info-list-item'>Phone: (416) 250-7299</li>
+                  <li className='footer-info-list-item'>Phone: (647) 889 4095</li>
                 </ul>
                 <div className='social-media-div-footer'>
                       <div className='social-media-item-footer'>
