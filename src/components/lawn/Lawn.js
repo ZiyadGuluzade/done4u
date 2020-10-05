@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './lawn.css';
 import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
+import LawnPrices from '../lawnprices/LawnPrices';
 
 export class Lawn extends Component {
   render() {
@@ -33,119 +34,94 @@ export class Lawn extends Component {
               <div className='car-wash-prices'>
                 <h4 className='car-wash-prices-subtitle'>Lawn Care Services</h4>
 
-                  <div className='lawn-care-packages'>
-                    <div className='regular-prices-div'>
-                      <div className='package-div'>
-                        <div>
-                          <span className='package-name'>One time mowing service</span><br/>
-                          <p>0-1000 Square ft</p>
-                        </div>
-                        <span className='package-price'>$30.00</span>
-                      </div>
-                      <hr className='packages-underline'/>
+                <div className='lawn-care-packages'>
+                  <div className='regular-prices-div'>
+                    <LawnPrices 
+                      area='0-1000 Square ft' 
+                      price='$30.00'
+                      servicetype='One time mowing service' 
+                      />
+                    <hr className='packages-underline'/>
 
-                      <div className='package-div'>
-                        <div>
-                        <span className='package-name'>One time mowing service</span><br/>
-                          <p>(1000-2500 Square ft)</p>
-                        </div>
-                        <span className='package-price'>$35.00</span>
-                      </div>
-                      <hr className='packages-underline'/>
+                    <LawnPrices 
+                      area='1000-2500 Square ft' 
+                      price='$35.00'
+                      servicetype='One time mowing service' 
+                      />
+                    <hr className='packages-underline'/>
 
-                      <div className='package-div'>
-                        <div>
-                        <span className='package-name'>One time mowing service</span><br/>
-                          <p>(2500-4500 Square ft)</p>
-                        </div>
-                        <span className='package-price'>$40.00</span>
-                      </div>
-                      <hr className='packages-underline'/>
+                    <LawnPrices 
+                      area='2500-4500 Square ft' 
+                      price='$40.00'
+                      servicetype='One time mowing service' 
+                      />
+                    <hr className='packages-underline'/>
 
-                      <div className='package-div'>
-                        <div>
-                        <span className='package-name'>One time mowing service</span><br/>
-                          <p>(4500-6500 Square ft)</p>
-                        </div>
-                        <span className='package-price'>$45.00</span>
-                      </div>
-                      <hr className='packages-underline'/>
+                    <LawnPrices 
+                      area='4500-6500 Square ft' 
+                      price='$45.00'
+                      servicetype='One time mowing service' 
+                      />
+                    <hr className='packages-underline'/>
 
-                      <div className='package-div'>
-                        <div>
-                        <span className='package-name'>One time mowing service</span><br/>
-                          <p>(6500-8500 Square ft)</p>
-                        </div>
-                        <span className='package-price'>$50.00</span>
-                      </div>
-                      <hr className='packages-underline'/>
+                    <LawnPrices 
+                      area='6500-8500 Square ft' 
+                      price='$50.00'
+                      servicetype='One time mowing service' 
+                      />
+                    <hr className='packages-underline'/>
 
-                      <div className='package-div'>
-                        <div>
-                        <span className='package-name'>One time mowing service</span><br/>
-                          <p>(Over 8500 Square ft)</p>
-                        </div>
-                        <span className='package-price'>Call for a Quote</span>
-                      </div>
-                      <hr className='packages-underline'/>
-                    </div>
+                    <LawnPrices 
+                      area='Over 8500 square feet' 
+                      price='Call for a Quote'
+                      servicetype='One time mowing service' 
+                      />  
+                  </div>
                 
-                    <div className='seasonal-packages-div'>
-                      <div className='package-div'>
-                        <div>
-                        <span className='package-name'>Seasonal package: 6 times </span><br/>
-                          <p>(0-1000 Square ft)</p>
-                        </div>
-                        <span className='package-price'>$324.00</span>
-                      </div>
-                      <hr className='packages-underline'/>
+                  <div className='seasonal-packages-div'>
+                    <LawnPrices 
+                      area='0-1000 Square ft' 
+                      price='$324.00'
+                      servicetype='Seasonal package: 6 times' 
+                      />
+                    <hr className='packages-underline'/>
 
-                      <div className='package-div'>
-                        <div>
-                        <span className='package-name'>Seasonal package: 6 times </span><br/>
-                          <p>(1000-2500 Square ft)</p>
-                        </div>
-                        <span className='package-price'>$378.00</span>
-                      </div>
-                      <hr className='packages-underline'/>
+                    <LawnPrices 
+                      area='1000-2500 Square ft' 
+                      price='$378.00'
+                      servicetype='Seasonal package: 6 times' 
+                      />
+                    <hr className='packages-underline'/>
 
-                      <div className='package-div'>
-                        <div>
-                        <span className='package-name'>Seasonal package: 6 times </span><br/>
-                          <p>(2500-4500 Square ft)</p>
-                        </div>
-                        <span className='package-price'>$432.00</span>
-                      </div>
-                      <hr className='packages-underline'/>
+                    <LawnPrices 
+                      area='2500-4500 Square ft' 
+                      price='$432.00'
+                      servicetype='Seasonal package: 6 times' 
+                      />
+                    <hr className='packages-underline'/>
 
-                      <div className='package-div'>
-                        <div>
-                        <span className='package-name'>Seasonal package: 6 times </span><br/>
-                          <p>(4500-6500 Square ft)</p>
-                        </div>
-                        <span className='package-price'>$486.00</span>
-                      </div>
-                      <hr className='packages-underline'/>
+                    <LawnPrices 
+                      area='4500-6500 Square ft' 
+                      price='$486.00'
+                      servicetype='Seasonal package: 6 times' 
+                      />
+                    <hr className='packages-underline'/>
 
-                      <div className='package-div'>
-                        <div>
-                        <span className='package-name'>Seasonal package: 6 times </span><br/>
-                          <p>(6500-8500 Square ft)</p>
-                        </div>
-                        <span className='package-price'>$540.00</span>
-                      </div>
-                      <hr className='packages-underline'/>
+                    <LawnPrices 
+                      area='6500-8500 Square ft' 
+                      price='$540.00'
+                      servicetype='Seasonal package: 6 times' 
+                      />
+                    <hr className='packages-underline'/>
 
-                      <div className='package-div'>
-                        <div>
-                        <span className='package-name'>Seasonal package: 6 times </span><br/>
-                          <p>(Over 8500 ft)</p>
-                        </div>
-                        <span className='package-price'>Call for a Qoute</span>
-                      </div>
-                      <hr className='packages-underline'/>
+                    <LawnPrices 
+                      area='Over 8500 square feet' 
+                      price='Call for a Quote'
+                      servicetype='Seasonal package: 6 times' 
+                      />
                   </div>
                 </div>
+                
                 <div className='extra-info'>
                 <span className='extra-info-text'>
                   <span className='extra-info-name'>Booking fee for one time mowing services: </span> 

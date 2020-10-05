@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './snowremoval.css';
 import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
+import SnowRemovalPrices from '../snowremovalprices/SnowRemovalPrices';
 
 export class SnowRemoval extends Component {
   render() {
@@ -34,97 +35,75 @@ export class SnowRemoval extends Component {
                 <h4 className='car-wash-prices-subtitle'>Snow Removal Prices</h4>
                 <div className='snow-removal-packages'>
                   <div className='single-snow-removal'>
-                    <div className='package-div'>
-                      <div>
-                        <span className='package-name'>One time Snow Removal</span><br/>
-                        <p>1, 2, 3 or 4 car driveway</p>
-                      </div>
-                      <span className='package-price'>$250.00</span>
-                    </div>
+                    <SnowRemovalPrices 
+                      package='One time Snow Removal' 
+                      driveway='1, 2, 3 or 4 car driveway' 
+                      price='$250.00'
+                      />
                     <hr className='packages-underline'/>
 
-                    <div className='package-div'>
-                      <div>
-                        <span className='package-name'>One time Snow Removal</span><br/>
-                        <p>6, 8 or 10 car driveway</p>
-                      </div>
-                      <span className='package-price'>$250.00</span>
-                    </div>
-                    <hr className='packages-underline'/>
+                    <SnowRemovalPrices 
+                      package='One time Snow Removal' 
+                      driveway='6, 8 or 10 car driveway' 
+                      price='$350.00'
+                      />
                   </div>
 
                   <div className='seasonal-snow-removal'>
-                    <div className='package-div'>
-                      <div>
-                        <span className='package-name'>Seasonal Package</span><br/>
-                        <p>1 car driveway</p>
-                      </div>
-                      <span className='package-price'>$350.00</span>
-                    </div>
+                    <SnowRemovalPrices 
+                      package='Seasonal Package' 
+                      driveway='1 car driveway' 
+                      price='$350.00'
+                      />
                     <hr className='packages-underline'/>
 
-                    <div className='package-div'>
-                      <div>
-                        <span className='package-name'>Seasonal Package</span><br/>
-                        <p>2 car driveway</p>
-                      </div>
-                      <span className='package-price'>$450.00</span>
-                    </div>
+                    <SnowRemovalPrices 
+                      package='Seasonal Package' 
+                      driveway='2 car driveway' 
+                      price='$450.00'
+                      />
                     <hr className='packages-underline'/>
 
-                    <div className='package-div'>
-                      <div>
-                        <span className='package-name'>Seasonal Package</span><br/>
-                        <p>3 car driveway</p>
-                      </div>
-                      <span className='package-price'>$500.00</span>
-                    </div>
+                    <SnowRemovalPrices 
+                      package='Seasonal Package' 
+                      driveway='3 car driveway' 
+                      price='$500.00'
+                      />
                     <hr className='packages-underline'/>
 
-                    <div className='package-div'>
-                      <div>
-                        <span className='package-name'>Seasonal Package</span><br/>
-                        <p>4 car driveway</p>
-                      </div>
-                      <span className='package-price'>$550.00</span>
-                    </div>
+                    <SnowRemovalPrices 
+                      package='Seasonal Package' 
+                      driveway='4 car driveway' 
+                      price='$550.00'
+                      />
                     <hr className='packages-underline'/>
 
-                    <div className='package-div'>
-                      <div>
-                        <span className='package-name'>Seasonal Package</span><br/>
-                        <p>5 car driveway</p>
-                      </div>
-                      <span className='package-price'>$600.00</span>
-                    </div>
+                    <SnowRemovalPrices 
+                      package='Seasonal Package' 
+                      driveway='5 car driveway' 
+                      price='$600.00'
+                      />
                     <hr className='packages-underline'/>
 
-                    <div className='package-div'>
-                      <div>
-                        <span className='package-name'>Seasonal Package</span><br/>
-                        <p>6 car driveway</p>
-                      </div>
-                      <span className='package-price'>$650.00</span>
-                    </div>
+                    <SnowRemovalPrices 
+                      package='Seasonal Package' 
+                      driveway='6 car driveway' 
+                      price='$650.00'
+                      />
                     <hr className='packages-underline'/>
 
-                    <div className='package-div'>
-                      <div>
-                        <span className='package-name'>Seasonal Package</span><br/>
-                        <p>8 car driveway</p>
-                      </div>
-                      <span className='package-price'>$800.00</span>
-                    </div>
+                    <SnowRemovalPrices 
+                      package='Seasonal Package' 
+                      driveway='8 car driveway' 
+                      price='$800.00'
+                      />
                     <hr className='packages-underline'/>
 
-                    <div className='package-div'>
-                      <div>
-                        <span className='package-name'>Seasonal Package</span><br/>
-                        <p>10 car driveway</p>
-                      </div>
-                      <span className='package-price'>$1000.00</span>
-                    </div>
-                    <hr className='packages-underline'/>
+                    <SnowRemovalPrices 
+                      package='Seasonal Package' 
+                      driveway='10 car driveway' 
+                      price='$1000.00'
+                      />                   
                   </div>
                 </div>
 
@@ -148,7 +127,6 @@ export class SnowRemoval extends Component {
 
               <div className='cleaning-steps-div'>
                 <h4 className='cleaning-info-subtitle'>How it Works</h4>
-                {/* <hr className='cleaning-info-subtitle-underline' /> */}
                 <div>
                   <p className='step-1 step'>
                     Download our application on your phone and register an account.<br/><span className='logo-span'>Done<span className='logo-inner-span'>4</span>U</span> is available on Google Play and App Store.</p>

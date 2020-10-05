@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './cleaning.css';
 import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
+import CleaningPrices from '../cleaningprices/CleaningPrices';
 
 export class Cleaning extends Component {
   render() {
@@ -32,14 +33,17 @@ export class Cleaning extends Component {
 
             <div className='car-wash-prices'>
                 <h4 className='car-wash-prices-subtitle'>House Cleaning Prices</h4>
-                <div className='package-div'>
-                  <div>
-                    <span className='package-name'>1 Hour</span><br/>
-                    <p>Standart house cleaning</p>
-                  </div>
-                  <span className='package-price'>$30.00</span>
-                </div>
+                <CleaningPrices housetype='1 Bedroom' price='$75.00' />
                 <hr className='packages-underline'/>
+                <CleaningPrices housetype='2 Bedroos' price='$95.00' />
+                <hr className='packages-underline'/>
+                <CleaningPrices housetype='3 Bedroom' price='$125.00' />
+                <hr className='packages-underline'/>
+                <CleaningPrices housetype='4 Bedroom' price='$150.00' />
+                <hr className='packages-underline'/>
+                <CleaningPrices housetype='5 Bedroom' price='$200.00' />
+                <hr className='packages-underline'/>
+                <CleaningPrices housetype='6 Bedrooms' price='Call for a Quote' />
 
                 <div className='extra-info'>
                   <span className='extra-info-text'>

@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import './carwash.css';
 import Navbar from '../navbar/Navbar';
 import Footer from '../footer/Footer';
+import CarWashPrices from '../carwashprices/CarWashPrices';
 
 export class CarWash extends Component {
   render() {
@@ -33,46 +34,31 @@ export class CarWash extends Component {
             </div>
             <div className='car-wash-prices'>
               <h4 className='car-wash-prices-subtitle'>Car Wash Packages</h4>
-              <div className='package-div'>
 
-                <div>
-                <span className='package-name'>Basic Package</span><br/>
-                  <p>Exterior only, including tires and rims (at client's location)</p>
-                </div>
-                <span className='package-price'>$49.99</span>
-              </div>
+              <CarWashPrices  servicename='Basic Package' 
+                              serviceincludes="Exterior only, including tires and rims (at client's location)" 
+                              price='$49.99' />
               <hr className='packages-underline'/>
-              <div className='package-div'>
-                <div>
-                  <span className='package-name'>Silver Package</span>
-                  <p>Exterior and interior: vacuum and basic detailing (at client's location)</p>
-                </div>
-                <span className='package-price'>$79.99</span>
-              </div>
+
+              <CarWashPrices  servicename='Silver Package' 
+                              serviceincludes="Exterior and interior: vacuum and basic detailing (at client's location)" 
+                              price='$79.99' />
               <hr className='packages-underline'/>
-              <div className='package-div'>
-                <div>
-                  <span className='package-name'>Gold Package</span>
-                  <p>Exterior and interior: vacuum and basic detailing, engine (no water involved, at client's location)</p>
-                </div>
-                <span className='package-price'>$99.99</span>
-              </div>
+
+              <CarWashPrices  servicename='Gold Package' 
+                              serviceincludes="Exterior and interior: vacuum and basic detailing, engine (no water involved, at client's location)" 
+                              price='$99.99' />
               <hr className='packages-underline'/>
-              <div className='package-div'>
-                <div>
-                  <span className='package-name'>Luxury Package - Sedan Cars</span>
-                  <p>Exterior and interior: vacuum, shampoo, full detailing, engine (no water involved, at <span className='logo-span'>Done<span className='logo-inner-span'>4</span>U</span> location)</p>
-                </div>
-                <span className='package-price'>$189.99</span>
-              </div>
+
+              <CarWashPrices  servicename='Luxury Package - Sedan Cars' 
+                              serviceincludes="Exterior only, including tires and rims (at client's location)" 
+                              price='$189.99' />
               <hr className='packages-underline'/>
-              <div className='package-div'>
-                <div>
-                  <span className='package-name'>Luxury Package - SUV, VAN cars</span>
-                  <p>Exterior and interior: vacuum shampoo, full detailing, engine (no water involved, at <span className='logo-span'>Done<span className='logo-inner-span'>4</span>U</span> location)</p>
-                </div>
-                <span className='package-price'>$199.99</span>
-              </div>
+
+              <CarWashPrices  servicename='Luxury Package - SUV, VAN cars' 
+                              serviceincludes="Exterior and interior: vacuum shampoo, full detailing, engine (no water involved, at Done 4U location" 
+                              price='$199.99' />
+
               <div className='extra-info'>
                 <span className='extra-info-text'>
                   <span className='extra-info-name'>Booking fee: </span> 
