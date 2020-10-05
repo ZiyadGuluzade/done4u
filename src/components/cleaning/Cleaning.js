@@ -35,15 +35,17 @@ export class Cleaning extends Component {
                 <h4 className='car-wash-prices-subtitle'>House Cleaning Prices</h4>
                 <CleaningPrices housetype='1 Bedroom' price='$75.00' />
                 <hr className='packages-underline'/>
-                <CleaningPrices housetype='2 Bedroos' price='$95.00' />
+                <CleaningPrices housetype='2 Bedrooms' price='$95.00' />
                 <hr className='packages-underline'/>
-                <CleaningPrices housetype='3 Bedroom' price='$125.00' />
+                <CleaningPrices housetype='3 Bedrooms' price='$125.00' />
                 <hr className='packages-underline'/>
-                <CleaningPrices housetype='4 Bedroom' price='$150.00' />
+                <CleaningPrices housetype='4 Bedrooms' price='$150.00' />
                 <hr className='packages-underline'/>
-                <CleaningPrices housetype='5 Bedroom' price='$200.00' />
+                <CleaningPrices housetype='5 Bedrooms' price='$200.00' />
                 <hr className='packages-underline'/>
                 <CleaningPrices housetype='6 Bedrooms' price='Call for a Quote' />
+                <hr className='packages-underline'/>
+                <CleaningPrices housetype='1 hour' price='$35.00' />
 
                 <div className='extra-info'>
                   <span className='extra-info-text'>
